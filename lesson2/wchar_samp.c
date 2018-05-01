@@ -3,7 +3,7 @@
 
 int main(void)
 {
-  wchar_t wch1 = 'AB';
+  wchar_t wch1 = L'B';
   wchar_t wch = 0;
   scanf("%lc", &wch);
   printf("\nYou entered %lc\n", wch);
