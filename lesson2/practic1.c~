@@ -1,0 +1,22 @@
+/* practice: calculate a tree's high with your friend*/
+#include<stdio.h>
+
+int main(void)
+{
+  float distance1 = 0.0f,
+    distance2 = 0.0f,
+    high_tal = 0.0f,
+    high_low = 0.0f;
+  /* parameter prepare */
+
+  scanf("Please input the front people's highth: %f", 
+       &high_tal);
+  
+  scanf("\ninput hehand people's highth:%f",&high_low);
+  scanf("\ninput the distance between yours: %f", &distance2);
+  scanf("\nAnd input the distance between the taller and tree: %f", &distance1);
+  
+  printf("\nThe hightn of the tree is %.2f", 
+	 high_tal+distance2/distance1*(high_tal - high_low));
+  return 1;
+}
