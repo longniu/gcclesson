@@ -1,2 +1,3 @@
 # gcclesson
-there is my private workspace for training C program
+This is my private workspace for training C program.
+But you can free download.
